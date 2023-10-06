@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Hello World</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts Roboto -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="./css/_layout.css" />
+    <link rel="stylesheet" href="./css/_multilevel-menu.css" />
+    <link rel="stylesheet" href="./css/_btn-group.css" />
+    <link rel="stylesheet" href="./css/_rick-morty-char.css" />
+    <link rel="stylesheet" href="./css/_fb-post.css" />
+    <link rel="stylesheet" href="./css/_carousel.css" />
+  </head>
+  <body>
+
+    <!-- Multilevel menu in nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler text-light"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarLeftAlignExample"
+          aria-controls="navbarLeftAlignExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+    
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+            <!-- Menu item -->
+            <li class="nav-item">
+              <a class="nav-link active text-light" aria-current="page" href="#">
+                Kezdőlap
+              </a>
+            </li>
+
+            <!-- Menu item -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                <i class="bi bi-bucket"></i> Termékek
+              </a>
+            </li>
+
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Kategóriák
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    IT termékek
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Élelmiszerek
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Kiegészítők
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Akciós termékek
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Termék fórum
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Felhasználói visszajelzések
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Egyéb cikkek, vélemények
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Navbar dropdown -->
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-light"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-mdb-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog bejegyzések
+              </a>
+              <!-- Dropdown menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Felhasználó
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Vásárló
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    Admin
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Menu item -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                <i class="bi bi-box-arrow-right"></i> Regisztráció
+              </a>
+            </li>
+
+            <!-- Menu item -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                Hivatkozások
+              </a>
+            </li>
+
+            <!-- Menu item -->
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">
+                <i class="bi bi-card-list"></i> Dokumentumok
+              </a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- END Multilevel menu in nav bar -->
+
+    <!-- LAYOUT -->
+    <div class="px-3">
+
+      <!-- Button group -->
+      <div class="btn-group my-3" role="group" aria-label="Button group with nested dropdown">
+        <button type="button" class="btn btn-primary">
+          Első
+        </button>
+
+        <button type="button" class="btn btn-primary">
+          Második
+        </button>
+
+        <button type="button" class="btn btn-primary">
+          Harmadik
+        </button>
+      </div>
+      <!-- END Button group -->
+
+
+      <!-- Outer resource -->
+      <div id="rick_morty">
+        <div class="spinner-border text-primary" role="status"></div>
+      </div>
+
+
+      <!-- Facebook post embedded -->
+      <div class="fb-post">
+        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FOrigoHirek%2Fposts%2Fpfbid0fP9q9K5PKq5ZCXk2LBNvefYMkB15TQQ4xuNhZjeWzBVbjamQuWRUCy5TdJMwdt3Vl&show_text=true&width=500" width="500" height="483" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" style="width: 100% !important;"></iframe>
+      </div>
+      <!-- END FB post embedded -->
+
+
+      <!-- Carousel -->
+      <div class="carousel-container">
+        <div id="carouselExampleIndicators" class="carousel slide" data-mdb-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="4"
+              aria-label="Slide 5"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="5"
+              aria-label="Slide 6"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="6"
+              aria-label="Slide 7"
+            ></button>
+            <button
+              type="button"
+              data-mdb-target="#carouselExampleIndicators"
+              data-mdb-slide-to="7"
+              aria-label="Slide 8"
+            ></button>
+          </div>
+
+          <!-- SLIDES -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/043.webp" class="d-block w-100" alt="Exotic Fruits"/>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/042.webp" class="d-block w-100" alt="Camera"/>
+            </div>
+
+            <div class="carousel-item">
+              <img src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp" class="d-block w-100" alt="Wild Landscape"/>
+            </div>
+          </div>
+          <!-- END SLIDES -->
+
+          <button class="carousel-control-prev" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="prev">
+            <
+          </button>
+          <button class="carousel-control-next" type="button" data-mdb-target="#carouselExampleIndicators" data-mdb-slide="next">
+            >
+          </button>
+        </div>
+      </div>
+      <!-- END Carousel -->
+
+    </div>
+    <!-- END LAYOUT -->
+
+
+
+    <!-- MDB -->
+      <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!-- jquery -->
+      <script
+        src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+        crossorigin="anonymous">
+      </script>
+
+    <!-- Custom scripts -->
+      <script type="text/javascript"></script>
+
+    <!-- Rick morty api -->
+      <script src="./js/_rick-morty-api.js"></script>
+  </body>
+</html>

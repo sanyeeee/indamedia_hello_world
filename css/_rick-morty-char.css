@@ -1,0 +1,30 @@
+
+.rick-morty-char {
+  width: 500px;
+  border-radius: 4px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  background-color: #fff;
+}
+
+.rick-morty-char .char-name,
+.rick-morty-char .char-data {
+  margin-bottom: 0.7rem;
+}
+
+.rick-morty-char .char-name {
+  font-size: 1.2rem;
+}
+
+.rick-morty-char .char-avatar img {
+  max-width: 100%;
+}
+
+@media (max-width: 675px) {
+
+  .rick-morty-char {
+    width: 100%;
+    box-sizing: border-box;
+    word-wrap: break-word;
+  }
+}
