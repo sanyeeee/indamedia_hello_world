@@ -18,3 +18,10 @@
 .dropdown-menu > li:hover > .dropdown-submenu {
   display: block;
 }
+
+@media (max-width: 1100px) {
+
+  .nav-item i {
+    display: none;
+  }
+}

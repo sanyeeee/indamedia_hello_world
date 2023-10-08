@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="html-body">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -34,10 +34,10 @@
     <link rel="stylesheet" href="./css/_rick-morty-char.css" />
     <link rel="stylesheet" href="./css/_carousel.css" />
   </head>
-  <body>
+  <body class="html-body">
 
     <!-- Multilevel menu in nav bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-primary text-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary text-light navbar-fixed-top">
       <!-- Container wrapper -->
       <div class="container-fluid">
         <!-- Toggle button -->
@@ -45,8 +45,8 @@
           class="navbar-toggler text-light"
           type="button"
           data-mdb-toggle="collapse"
-          data-mdb-target="#navbarLeftAlignExample"
-          aria-controls="navbarLeftAlignExample"
+          data-mdb-target="#navbar-left"
+          aria-controls="navbar-left"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
@@ -54,7 +54,7 @@
         </button>
     
         <!-- Collapsible wrapper -->
-        <div class="collapse navbar-collapse" id="navbarLeftAlignExample">
+        <div class="collapse navbar-collapse" id="navbar-left">
           <!-- Left links -->
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -178,16 +178,16 @@
             </li>
 
             <!-- Menu item -->
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">
-                Hivatkozások
+            <li class="nav-item" id="dark_mode_btn">
+              <a class="nav-link text-light" href="#" onclick="changeThemeDarkMode()">
+                <i class="bi bi-card-list"></i> Sötét mód
               </a>
             </li>
 
             <!-- Menu item -->
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">
-                <i class="bi bi-card-list"></i> Dokumentumok
+            <li class="nav-item" id="light_mode_btn">
+              <a class="nav-link text-light" href="#" onclick="changeThemeDarkMode()">
+                <i class="bi bi-card-list"></i> Világos mód
               </a>
             </li>
           </ul>
@@ -346,7 +346,6 @@
     <!-- END LAYOUT -->
 
 
-
     <!-- MDB -->
       <script type="text/javascript" src="js/mdb.min.js"></script>
 
@@ -359,5 +358,8 @@
 
     <!-- Rick morty api -->
       <script src="./js/_rick-morty-api.js"></script>
+
+    <!-- Dark mode changer -->
+      <script src="./js/_change-dark-mode.js"></script>
   </body>
 </html>

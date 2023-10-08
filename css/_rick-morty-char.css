@@ -18,3 +18,8 @@
 .rick-morty-char .char-avatar img {
   max-width: 100%;
 }
+
+.html-body.dark .rick-morty-char {
+  color: #fff;
+  background-color: #34495e;
+}
