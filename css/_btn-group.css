@@ -3,7 +3,7 @@
 
   .btn-group {
     width: 100% !important;
-    display: inline !important;
+    text-align: center;
   }
 
   .btn-group .btn {

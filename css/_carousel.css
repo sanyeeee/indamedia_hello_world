@@ -1,22 +1,7 @@
 
-.carousel-container {
-  width: 500px !important;
-}
-
-.carousel-container .carousel-item {
-  width: 100% !important;
-}
-
 .carousel-container .carousel-control-prev,
 .carousel-container .carousel-control-next {
   opacity: 1 !important;
-  font-size: 22pt;
+  font-size: 30pt;
   font-weight: bold;
-}
-
-@media (max-width: 675px) {
-
-  .carousel-container {
-    width: 100% !important;
-  }
 }
